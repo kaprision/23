@@ -1,0 +1,112 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/7b/1f/d5/7b1fd50d83b676ff08f0f86779db3fa5.jpg");
+}
+.szatie {
+    width: 250px;
+    background-color: rgb(235, 129, 229);
+    border: 2px solid navy;
+    padding: 10px;
+    text-align: left;
+}
+
+.zad6 {
+    width: 350px;
+    background-color: rgb(127, 244, 248);
+    border: 2px solid navy;
+    padding: 10px;
+    text-align: left;
+}
+
+  
+.container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #88df8b;
+    border-radius: 5px;
+    text-align: center; /* Выравнивание по центру */
+  }
+  
+  .title {
+    color: green;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .row {
+    display: flex;
+    justify-content: space-around; /* Распределение места между элементами */
+    align-items: center;
+  }
+  
+  .image-container {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Разрешение переноса на новую строку */
+  }
+  
+  .product {
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    margin-bottom: 10px;
+  }
+  
+  .product img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  
+  .amount label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover{
+    background-color: #45a049;
+  }
+  
+ 
+  
+  

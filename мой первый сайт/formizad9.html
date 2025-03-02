@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Фотостудия "Шарм"</title>
+<link rel="stylesheet" href="formizad9.css">
+</head>
+<body>
+
+<div class="container">
+  <img src="D:\Users\ADM\Desktop\мой первый сайт\sharm.jpg" alt="Логотип Фотостудии Шарм" class="logo"> <!-- Замените logo.png на путь к вашему логотипу -->
+  <h1 class="title">Фотостудия "Шарм"</h1>
+
+  <form id="orderForm">
+    <div class="form-group">
+      <label for="name">Имя заказчика:</label>
+      <input type="text" id="name" name="name" size="100">
+    </div>
+
+    <div class="form-group">
+      <label for="address">Адрес:</label>
+      <input type="text" id="address" name="address" size="150">
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Телефон:</label>
+      <input type="tel" id="phone" name="phone" size="50">
+    </div>
+
+    <div class="form-group">
+      <label>Фото:</label>
+      <label><input type="checkbox" name="photo[]" value="цветное">Цветное</label>
+      <label><input type="checkbox" name="photo[]" value="чёрно-белое">Черно-белое</label>
+      <label><input type="checkbox" name="photo[]" value="цветной слайд">Цветной слайд</label>
+    </div>
+
+    <div class="form-group">
+      <label>Срок исполнения:</label>
+      <label><input type="radio" name="deadline" value="3 дня">3 дня</label>
+      <label><input type="radio" name="deadline" value="10 дней">10 дней</label>
+      <label><input type="radio" name="deadline" value="30 дней">30 дней</label>
+    </div>
+
+    <div class="form-group">
+      <label for="employee">Заказ принял:</label>
+      <select id="employee" name="employee">
+        <option value="Иванов"><a href="#">Иванов</a></option> <!-- Замените # на ссылку -->
+        <option value="Петров"><a href="#">Петров</a></option> <!-- Замените # на ссылку -->
+        <option value="Сидоров"><a href="#">Сидоров</a></option> <!-- Замените # на ссылку -->
+      </select>
+    </div>
+
+    <div class="buttons">
+      <button type="submit">Отправить</button>
+      <button type="reset">Очистить</button>
+    </div>
+  </form>
+
+  <!-- Пример карточки сотрудника (скрыт по умолчанию) -->
+  <div id="employeeCard" style="display: none;">
+    <h2>Карточка сотрудника</h2>
+    <p>Фамилия: <span id="employeeName"></span></p>
+    <h3>Владение иностранными языками:</h3>
+    <input type="checkbox" value="английский" disabled> Английский<br>
+    <input type="checkbox" value="немецкий" disabled> Немецкий<br>
+    <input type="checkbox" value="испанский" disabled> Испанский<br>
+    <h3>Пол:</h3>
+    <input type="radio" value="м" disabled> М<br>
+    <input type="radio" value="ж" disabled> Ж<br>
+    <div class="form-group">
+      <label for="additionalInfo">Дополнительные сведения:</label>
+      <textarea id="additionalInfo" rows="4" cols="50" disabled></textarea>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script> </body>
+<a href="formi.html">Назад</a>
+</html>

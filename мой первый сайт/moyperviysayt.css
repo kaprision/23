@@ -1,0 +1,88 @@
+
+body {
+    background-image: url("https://i.pinimg.com/originals/7b/1f/d5/7b1fd50d83b676ff08f0f86779db3fa5.jpg");
+}
+
+.framed-text {
+  background-color: rgb(143, 125, 47); 
+  border: 2px solid rgb(0, 0, 0); 
+  padding: 10px; 
+  float: left;
+  width: 300px;
+}
+.category {
+    color: red;
+}
+
+.sub-category {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.cvet {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(21, 19, 41, 0.973);
+    transition: color 0.3s ease; 
+  }
+
+  .cvet:hover {
+    color: rgb(204, 15, 252); 
+  }
+  .gradient-text {
+    background-image: linear-gradient(to right, rgb(1, 1, 5), rgb(0, 7, 0));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent; 
+    transition: background-image 0.3s ease; 
+  }
+  
+  .gradient-text:hover {
+    background-image: linear-gradient(to right, rgb(154, 49, 240), rgb(234, 0, 255), rgb(236, 127, 240)); }
+    .razmer {
+      font-size: 16px; 
+      transition: font-size 0.3s ease; 
+      width: 400px;
+      margin: 0 auto;
+    text-align: center;
+    }
+    
+    .razmer:hover {
+      font-size: 20px; 
+    }
+
+    .razmer2 {
+      font-size: 16px; 
+      transition: font-size 0.3s ease; 
+      width: 400px;
+
+    }
+    
+    .razmer2:hover {
+      font-size: 25px; 
+    }
+
+    .gipersilkizad5 {
+      background-color: rgb(143, 125, 47); 
+  border: 2px solid rgb(0, 0, 0); 
+  padding: 10px; 
+    }
+    .gipersilkizad6 {
+      background-color: rgb(118, 241, 80); 
+  border: 2px solid rgb(0, 0, 0); 
+  padding: 5px; 
+  text-align: center;
+  height: 400px;
+   }
